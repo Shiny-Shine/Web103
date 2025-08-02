@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    z-index: 10;
+}
+
+header > .inner {
+    position: relative;
+    width: 1180px;
+    height: 120px;
+    font-size: 0;
+    margin: 0 auto;
+}
+
+header > .inner > h1 {
+    left: 10px;
+    bottom: 15px;
+    position: absolute;
+    font-size: 26px;
+}
+
+header > .inner > h1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+header > .inner > #navbar {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+header > .inner > #navbar > li {
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+header > .inner > #navbar > li > a {
+    display: block;
+    padding: 20px 40px;
+    color: gray;
+    text-decoration: none;
+}
+
+header > .inner > #navbar > li > a:hover {
+    color: white;
+    background-color: gray;
+}
+
+header > .inner > #utility {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+header > .inner > #utility > li {
+    display: inline-block;
+    list-style: none;
+}
+
+header > .inner > #utility > li > a {
+    display: block;
+    padding: 0 10px;
+    font-size: 12px;
+    color: gray;
+    text-decoration: none;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+section article {
+    float: left;
+    position: relative;
+}
+
+section article p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+
+section > .article1 {
+    width: 700px;
+    height: 400px;
+    margin: 10px 10px 10px 0px;
+    background-image: url(img/700x400.png);
+}
+
+section > .article1 > p {
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+}
+
+section > .article2 {
+    width: 290px;
+    height: 190px;
+    margin-top: 10px;
+    background-image: url(img/290x190.png);
+}
+
+section > .article2 > p {
+    top: 50px;
+    left: 10px;
+    font-size: 21px;
+}
+
+section > .article3 {
+    width: 290px;
+    height: 95px;
+    margin-top: 10px;
+}
+
+section > .article3 > p {
+    right: 10px;
+    bottom: 20px;
+    font-size: 21px;
+}
+
+section #article4 {
+    width: 490px;
+    margin-right: 10px;
+}
+
+section .article4 {
+    width: 490px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+/* inner text */
+section .article4 > #article4-1 {
+    width: 300px;
+    left: 50%;
+    top: 160px;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: black;
+}
+
+/* inner text */
+section .article4 > #article4-2 {
+    right: 20px;
+    bottom: 30px;
+    font-size: 30px;
+    color: gold;
+}
+
+section > .article5 {
+    width: 500px;
+    height: 490px;
+    background-image: url(img/500x490.png);
+    margin-bottom: 10px;
+}
+
+section > .article6 {
+    width: 1000px;
+    height: 371px;
+    background-image: url(img/1000x371.png);
+    margin-bottom: 10px;
+}
+
+section > .article6 > p {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 2px black;
+}
+
+section > .article7 {
+    width: 1000px;
+    height: 361px;
+    background-image: url(img/1000x361.png);
+    margin-bottom: 10px;
+}
+
+section > .article7 > p {
+    font-weight: normal;
+    width: 450px;
+    height: 150px;
+    right: 30px;
+    bottom: 40px;
+    font-size: 20px;
+}
+
+section > .article7 > p > span {
+    font-size: 30px;
+    font-weight: bold;
+}
