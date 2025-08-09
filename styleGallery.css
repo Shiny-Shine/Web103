@@ -13,7 +13,7 @@ header {
     z-index: 10;
 }
 
-header > .inner {
+.inner {
     position: relative;
     width: 1180px;
     height: 120px;
@@ -21,55 +21,55 @@ header > .inner {
     margin: 0 auto;
 }
 
-header > .inner > h1 {
+header h1 {
     left: 10px;
     bottom: 15px;
     position: absolute;
     font-size: 26px;
 }
 
-header > .inner > h1 > a {
+header h1 a {
     text-decoration: none;
     color: black;
 }
 
-header > .inner > #navbar {
+#navbar {
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: 0;
+    bottom: 0;
 }
 
-header > .inner > #navbar > li {
+#navbar li {
     display: inline-block;
     list-style: none;
     font-weight: bold;
     font-size: 15px;
 }
 
-header > .inner > #navbar > li > a {
+#navbar a {
     display: block;
     padding: 20px 40px;
     color: gray;
     text-decoration: none;
 }
 
-header > .inner > #navbar > li > a:hover {
+#navbar a:hover {
     color: white;
     background-color: gray;
 }
 
-header > .inner > #utility {
+#utility {
     position: absolute;
     right: 30px;
     top: 20px;
 }
 
-header > .inner > #utility > li {
+#utility li {
     display: inline-block;
     list-style: none;
 }
 
-header > .inner > #utility > li > a {
+#utility a {
     display: block;
     padding: 0 10px;
     font-size: 12px;
@@ -94,57 +94,57 @@ section article p {
     font-weight: bold;
 }
 
-section > .article1 {
+.article1 {
     width: 700px;
     height: 400px;
-    margin: 10px 10px 10px 0px;
+    margin: 10px 10px 10px 0;
     background-image: url(img/700x400.png);
 }
 
-section > .article1 > p {
+.article1 p {
     right: 10px;
     bottom: 10px;
     font-size: 30px;
 }
 
-section > .article2 {
+.article2 {
     width: 290px;
     height: 190px;
     margin-top: 10px;
     background-image: url(img/290x190.png);
 }
 
-section > .article2 > p {
+.article2 p {
     top: 50px;
     left: 10px;
     font-size: 21px;
 }
 
-section > .article3 {
+.article3 {
     width: 290px;
     height: 95px;
     margin-top: 10px;
 }
 
-section > .article3 > p {
+.article3 p {
     right: 10px;
     bottom: 20px;
     font-size: 21px;
 }
 
-section #article4 {
+#article4 {
     width: 490px;
     margin-right: 10px;
 }
 
-section .article4 {
+.article4 {
     width: 490px;
     height: 240px;
     margin-bottom: 10px;
 }
 
 /* inner text */
-section .article4 > #article4-1 {
+#article4-1 {
     width: 300px;
     left: 50%;
     top: 160px;
@@ -154,28 +154,28 @@ section .article4 > #article4-1 {
 }
 
 /* inner text */
-section .article4 > #article4-2 {
+#article4-2 {
     right: 20px;
     bottom: 30px;
     font-size: 30px;
     color: gold;
 }
 
-section > .article5 {
+.article5 {
     width: 500px;
     height: 490px;
     background-image: url(img/500x490.png);
     margin-bottom: 10px;
 }
 
-section > .article6 {
+.article6 {
     width: 1000px;
     height: 371px;
     background-image: url(img/1000x371.png);
     margin-bottom: 10px;
 }
 
-section > .article6 > p {
+.article6 p {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -184,14 +184,14 @@ section > .article6 > p {
     text-shadow: 2px 2px 2px black;
 }
 
-section > .article7 {
+.article7 {
     width: 1000px;
     height: 361px;
     background-image: url(img/1000x361.png);
     margin-bottom: 10px;
 }
 
-section > .article7 > p {
+.article7 p {
     font-weight: normal;
     width: 450px;
     height: 150px;
@@ -200,7 +200,7 @@ section > .article7 > p {
     font-size: 20px;
 }
 
-section > .article7 > p > span {
+.article7 p span {
     font-size: 30px;
     font-weight: bold;
 }
